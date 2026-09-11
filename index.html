@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Lunch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-container">
+      <header class="page-header">
+        <h1>Campus Lunch</h1>
+        <p>See what is being served today.</p>
+      </header>
+
+      <section class="menu-controls" aria-labelledby="day-label">
+        <label id="day-label" for="day-selector">Choose a day</label>
+        <select id="day-selector" name="day">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+        </select>
+      </section>
+
+      <section aria-labelledby="menu-heading">
+        <div class="menu-heading-row">
+          <h2 id="menu-heading">Monday's menu</h2>
+          <p id="meal-count" aria-live="polite">3 meals</p>
+        </div>
+        <div id="meal-list" class="meal-list"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

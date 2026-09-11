@@ -1,0 +1,62 @@
+{
+  "Monday": [
+    {
+      "name": "Bibimbap",
+      "description": "Rice with vegetables and gochujang",
+      "price": 6000,
+      "vegetarian": true
+    },
+    {
+      "name": "Chicken Rice",
+      "description": "Rice served with grilled chicken",
+      "price": 7000,
+      "vegetarian": false
+    },
+    {
+      "name": "Tofu Bowl",
+      "description": "Tofu and vegetables over rice",
+      "price": 6500,
+      "vegetarian": true
+    }
+  ],
+  "Tuesday": [
+    {
+      "name": "Mushroom Pasta",
+      "description": "Creamy pasta with mushrooms",
+      "price": 7000,
+      "vegetarian": true
+    },
+    {
+      "name": "Beef Noodles",
+      "description": "Noodles with sliced beef and vegetables",
+      "price": 7500,
+      "vegetarian": false
+    },
+    {
+      "name": "Lentil Soup",
+      "description": "Warm lentil soup with vegetables",
+      "price": 6000,
+      "vegetarian": true
+    }
+  ],
+  "Wednesday": [
+    {
+      "name": "Vegetable Curry",
+      "description": "Mild curry with vegetables and rice",
+      "price": 6500,
+      "vegetarian": true
+    },
+    {
+      "name": "Pork Rice Bowl",
+      "description": "Rice bowl with seasoned pork",
+      "price": 7500,
+      "vegetarian": false
+    },
+    {
+      "name": "Egg Sandwich",
+      "description": "Egg and vegetable sandwich",
+      "price": 5500,
+      "vegetarian": true
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.page-container {
+  width: min(100%, 42rem);
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.8rem, 7vw, 2.5rem);
+}
+
+.page-header p {
+  margin-bottom: 0;
+  color: #444444;
+}
+
+.menu-controls {
+  margin-bottom: 2rem;
+}
+
+label,
+select {
+  display: block;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+select {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #9a9a9a;
+  border-radius: 0.25rem;
+  color: #111111;
+  background: #ffffff;
+  font: inherit;
+}
+
+.menu-heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 1.35rem;
+}
+
+#meal-count {
+  margin-bottom: 0;
+  color: #444444;
+  white-space: nowrap;
+}
+
+.meal-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.meal-card {
+  padding: 1rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 0.25rem;
+}
+
+.meal-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.meal-card p {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.meal-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.price {
+  margin: 0;
+  font-weight: 700;
+}
+
+.vegetarian-label {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid #777777;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
